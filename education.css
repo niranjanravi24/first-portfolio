@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:"Averia Serif Libre", serif;
+    
+}
+body{
+    background: linear-gradient(rgb(59, 59, 189),white);
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    padding:50px;
+}
+nav a{
+    color:white;
+    font-size: 1.25rem;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:50px;
+    padding:30px;
+}
+header{
+    padding:35px;
+    font-size:1.5rem;
+    color:white;
+}
+.column{
+    padding:25px;
+    background-color:rgb(95, 22, 232);
+    border-radius:3%;
+    color:white;
+    flex-basis:150px;
+}
+div img{
+    margin:10px;
+}
